@@ -1,6 +1,8 @@
 name: Publish AI Agent Radar
 
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "15 1 * * *"
   workflow_dispatch:
@@ -23,6 +25,10 @@ jobs:
           python-version: "3.13"
       - name: Verify generator
         run: python3 release_radar.py --self-test
+      - name: Verify Paragraph key
+        env:
+          PARAGRAPH_API_KEY: ${{ secrets.PARAGRAPH_API_KEY }}
+        run: python3 release_radar.py --check-key
       - name: Generate and publish
         env:
           GITHUB_TOKEN: ${{ github.token }}
