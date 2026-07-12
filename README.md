@@ -1,8 +1,6 @@
 # AI Agent Release Radar
 
-Generates a daily evidence-led digest from GitHub and publishes it to Paragraph. Each edition compares three projects and links their latest commits. Paragraph rewards and referrals route to:
-
-`0x658f5820602393Ba5b7208314BFD6227F0FA219A`
+Generates a daily evidence-led digest from GitHub and publishes it to Paragraph. Each edition compares three projects and links their latest commits.
 
 Revenue is not guaranteed; readers must genuinely support or use a qualifying referral.
 
