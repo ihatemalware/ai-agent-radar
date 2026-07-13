@@ -107,6 +107,8 @@ def render(items, now):
         "",
         "---",
         f"Data captured {date} from the GitHub public API. No paid placements.",
+        "Need the machine-readable dataset? [Get the 25-project JSON/CSV activity shortlist for $2 USDC]"
+        "(https://publish.new/ai-agent-repository-activity-shortlist-25-projects-eb236140).",
         f"Support this independently generated radar: `{WALLET}`",
         f"Referral: [Start your own Paragraph publication](https://paragraph.com/?referrer={WALLET}).",
         "",
